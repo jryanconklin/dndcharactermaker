@@ -1,0 +1,23 @@
+{
+  "characters": [{
+    "name": "Jonny Karate",
+    "class": "Monk",
+    "stength": 14,
+    "dexterity": 12,
+    "constitution": 14,
+    "intelligence": 5,
+    "wisdom": 8,
+    "charisma": 10,
+    "image": "http://thumbs3.picclick.com/d/l400/pict/371642193110_/Legends-of-Golarion-SAJAN-HUMAN-MONK-44-Pathfinder.jpg"
+  }, {
+    "name": "Torwyn Volmark",
+    "class": "Cleric",
+    "stength": 14,
+    "dexterity": 12,
+    "constitution": 15,
+    "intelligence": 10,
+    "wisdom": 18,
+    "charisma": 15,
+    "image": "http://lh3.ggpht.com/_014rnWcbAtQ/SxxLBhcsezI/AAAAAAAAAcM/siOlNLPl9vA/s400/100_1751.JPG"
+  }]
+}
