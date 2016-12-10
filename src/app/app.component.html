@@ -1,7 +1,34 @@
-<h1>
+<!-- <h1>
   {{title}}
-</h1>
-<div class="character" *ngFor="let character of models | async">
-  <h3>{{character.name}}</h3>
-  <img src="{{character.image}}" alt="An Image of {{character.name}}">
+</h1> -->
+<!-- <div class="character" *ngFor="let character of models | async">
+</div> -->
+
+  <div class="dropdown open character" *ngFor="let character of models | async">
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Characters
+    </button>
+
+    <div class="character dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">{{character.name}}</a>
+    </div>
+
+  </div>
+
+<br>
+<br>
+<hr>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="form-group">
+      <label for="characterName">Character Name: </label>
+      <input type="text" class="form-control" id="characterName" placeholder="{{this.name}}">
+    </div>
+
+
+  </div> <!-- End Row Div  -->
 </div>

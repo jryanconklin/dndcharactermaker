@@ -11,5 +11,5 @@ export class AppComponent {
   constructor(angularFire: AngularFire) {
     this.models = angularFire.database.list('characters');
   }
-  title = 'app still works!';
+  // title = 'app still works!';
 }
